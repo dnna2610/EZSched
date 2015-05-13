@@ -1,0 +1,31 @@
+Hi,
+
+This file is to briefly talk about the project and the development process.
+
+Proposal: To build a website that will automatically generate a schedule for 
+Drexel students.
+
+Members and Roles
+Duc Le - github.com/dml352 - Algorithm
+Nhan Nguyen - nhannguyen29.github.io - User Interface/ Front-end
+Anh Nguyen - dnna2610.github.io  -  Database/ Back-end
+Cheng Chen - Output
+
+The below is only summary of my part.
+
+Approach 1:
+Use MySQL to develop a database.
+We did made a small database using Putty.
+Problem - the database is too big, takes too long to get information and requires
+constant updates.
+
+Approach 2:
+Use php and simple_html_dom libraries to get the information directly from the school
+website at runtime.
+2 steps: 
+1. Get the correct link - done.
+2. Get info from the site - not yet done.
+
+Issues:
+The link is correct but the DOM Object is loading the wrong site.
+Possibly a memory leak but the clear() does not seem to work. Still working on this.
